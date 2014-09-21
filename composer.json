@@ -1,0 +1,19 @@
+{
+	"name": "simgent/simgent",
+	"description": "Simgent 's simple , elegant , framework",
+	"keywords": ["Simgent"],
+	"license": "MIT",
+	"require": {
+
+	},
+	"autoload": {
+		"classmap": [
+			"app/controllers",
+			"app/models"
+		],
+		"psr-0": {
+            "Simgent": "vendor/simgent/framework/src"
+        }
+	},
+	"minimum-stability": "stable"
+}
